@@ -5,10 +5,10 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class CountDownLatchTest implements Runnable {
+public class CountDownLatchDemo implements Runnable {
 
     static final CountDownLatch end = new CountDownLatch(10);
-    static final CountDownLatchTest demo = new CountDownLatchTest();
+    static final CountDownLatchDemo demo = new CountDownLatchDemo();
 
     public void run() {
         try {

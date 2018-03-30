@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
-public class CyclicBarrierTest {
+public class CyclicBarrierDemo {
 
     public static class Soldier implements Runnable {
 
